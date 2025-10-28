@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.cv {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 500px;
+  background-color: #163853;
+  padding: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.cvContact {
+  padding: 100px 20px 20px 20px;
+  color: white;
+}
+
+.cvContact h2 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.hrStyle {
+  height: 3px;
+  background-color: white;
+  margin-top: 30px;
+  border: none;
+}
+
+.contactContent {
+  padding: 30px 0px 0px 0px;
+}
+
+.phone {
+  padding: 20px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.phone span {
+  padding-left: 20px;
+}
+
+.email {
+  padding: 20px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.email span {
+  padding-left: 20px;
+}
+
+.location {
+  padding: 20px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.location span {
+  padding-left: 20px;
+}
+
+.globe {
+  padding: 20px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.globe span {
+  padding-left: 20px;
+}
+
+.education {
+  padding: 100px 20px 20px 20px;
+  color: white;
+}
+
+.education h2 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.educationContent {
+  line-height: 50px;
+  padding: 30px 30px 0px 20px;
+}
+
+.educationContent #highlight {
+  font-size: 20px;
+}
+
+.skills {
+  padding: 100px 20px 20px 20px;
+  color: white;
+}
+
+.skills h2 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.skillsContent {
+  padding: 30px 30px 0px 20px;
+}
+
+.skills li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.row {
+  width: 100%;
+}
+
+.name {
+  padding: 100px 0px 10px 200px;
+  height: 230px;
+}
+
+.name h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.name h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.profile h1 {
+  font-size: 44px;
+  padding: 122px 0px 10px 200px;
+  color: #163853;
+}
+
+.hrStyle2 {
+  height: 3px;
+  background-color: #163853;
+  border: none;
+  margin: 5px 200px 0px 200px;
+}
+
+.profile p {
+  padding: 20px 200px 120px 200px;
+}
+
+.work h1 {
+  font-size: 44px;
+  padding: 120px 0px 10px 200px;
+  color: #163853;
+}
+
+.work p {
+  padding: 20px 200px 264px 200px;
+}
+
+.languages h1 {
+  font-size: 44px;
+  padding: 120px 0px 10px 200px;
+  color: #163853;
+}
+
+.languages p {
+  padding: 20px 200px 0px 200px;
+}
+
+footer {
+  display: flex;
+  background-color: #163853;
+  height: 300px;
+  width: 100%;
+  margin-top: 1px;
+}
+
+.footerContent {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 50px;
+}
+
+.footerLogo img {
+  width: 100px;
+}
+
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.quickLinks h2 {
+  margin-bottom: 20px;
+}
+
+.footerLinks a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: #236d94;
+}
+.rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.rightsContent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}

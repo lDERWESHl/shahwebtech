@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+header {
+  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  display: flex;
+}
+
+header img {
+  width: 80px;
+}
+
+.mainText {
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 18px;
+  line-height: 33px;
+  letter-spacing: 1px;
+}
+
+.mainText h3 {
+  font-weight: 500;
+}
+
+.mainText h1 {
+  font-size: 25px;
+}
+
+.navigation {
+  display: flex;
+  background-color: #163853;
+  color: white;
+  height: 60px;
+}
+
+.links {
+  padding-left: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26%;
+  height: 100%;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.links a:hover {
+  color: #236d94;
+}
+
+.mainSection {
+  display: flex;
+  height: 100vh;
+}
+
+.mainSection img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.mainSection .quote {
+  height: 100%;
+  width: 100%;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  line-height: 60px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.quote h1 {
+  font-size: 50px;
+}
+
+.quote p {
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+
+.content {
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.content h1 {
+  font-weight: 500;
+}
+
+.content h1:nth-child(2) {
+  color: #425da2;
+  margin-bottom: 20px;
+}
+
+.content p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.fetImage img {
+  width: 300px;
+}
+
+.content a {
+  background-color: #163853;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.content a:hover {
+  background-color: #236d94;
+}
+
+.institute {
+  height: 500px;
+  width: 100%;
+  background-color: #f9fcfe;
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  flex-wrap: wrap;
+}
+
+.instContent {
+  width: 80%;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #163853;
+  height: 250px;
+  width: 250px;
+  color: white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #236d94;
+  transform: translate(0px, -20px);
+}
+
+footer {
+  display: flex;
+  /* background: rgba(0, 0, 0, 0.9); */
+  background-color: #163853;
+  height: 300px;
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 50px;
+}
+
+.footerLogo img {
+  width: 100px;
+}
+
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.quickLinks h2 {
+  margin-bottom: 20px;
+}
+
+.footerLinks a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: #236d94;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.rightsContent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+/* About FET Page */
+.aboutFET {
+  display: flex;
+  height: 90vh;
+}
+
+.fetContent {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 300px;
+  text-align: justify;
+  gap: 40px;
+}
+
+.fetContent h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.fetContent p:first-of-type {
+  font-weight: bold;
+}
+
+/* Contact Page CSS */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 4px #163853;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.items {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+
+.items input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  max-width: 300px;
+  padding: 10px;
+  height: 150px;
+  font-size: 16px;
+}
+
+.items a {
+  padding: 15px;
+  background-color: #163853;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s all;
+}
+
+.items a:hover {
+  background-color: #236d94;
+}
